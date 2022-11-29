@@ -26,10 +26,8 @@ setup(
     url='http://github.com/endorlabs/python-deps',
     license='Simplified BSD',
     install_requires=[
-        'odict>=1.9.0',
+        'odict==1.9.0',
         'plumber>=1.5',
-        'setuptools',
-        'zope.component==5.0.1',
         'zope.deferredimport',
     ],
     test_suite='endor.tests.test_suite'
