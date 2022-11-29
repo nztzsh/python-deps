@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 # project metadata
 [project]
 name = "endorpyproject"
-description = "pyproject.toml demonstrator"
+description = "pyproject toml demonstrator"
 license.text = "BSD"
 requires-python = ">=3.8"
 
