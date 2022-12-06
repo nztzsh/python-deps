@@ -76,7 +76,7 @@ test = [
 
 [[project.authors]]
 name = "Endor labs"
-email = "all@endor.ai"
+email = "info@goog.com"
 
 [project.scripts]
 sphinx-build = "sphinx.cmd.build:main"

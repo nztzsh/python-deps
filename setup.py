@@ -1,7 +1,7 @@
 from setuptools import setup
 
 version = '1.2.dev0'
-shortdesc = "Building data structures as node trees"
+shortdesc = "Securing the universe"
 
 setup(
     name='endorpysetup',
@@ -22,7 +22,7 @@ setup(
     ],
     keywords='endor tree fullmapping dict demo',
     author='Endor labs Contributors',
-    author_email='all@endor.ai',
+    author_email='infolabs@goog.com',
     url='http://github.com/endorlabs/python-deps',
     license='Simplified BSD',
     install_requires=[
