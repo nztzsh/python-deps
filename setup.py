@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = '1.2.dev0'
+version = '1.2.3'
 shortdesc = "Securing the universe"
 
 setup(
