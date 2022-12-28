@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "endor_poetry"
+version = "1.3.47"
+description = "Endor poetry demo for poetry"
+license = "LGPL-3.0-only"
+authors = ["Hello <nareshdevasani@endor.ai>"]
+readme = "README.md"
+homepage = "https://github.com/endorlabs/python-deps.git"
+repository = "https://github.com/endorlabs/python-deps.git"
+classifiers = [
+    "Development Status :: 2 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Limited GNU General Public License v3 (LGPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.7",
+]
+include = [
+    "docs",
+    "tests",
+    "*.md",
+    "LICENSE",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/endorlabs/python-deps/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+tqdm = "^4.62.3"
+pandas = "==1.3.5"
+pyarrow = "^6.0.1"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+flake8 = "^3.9.1"
+isort = "^5.8.0"
+pip-tools = "^6.1.0"
+pre-commit = "^2.12.1"
+pylint = "^2.8.2"
+mypy = "^0.931"
+
+[tool.poetry.scripts]
+sde = "endor.cli:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -30,5 +30,6 @@ setup(
         'plumber>=1.5',
         'zope.deferredimport',
     ],
-    test_suite='endor.tests.test_suite'
+    test_suite='endor.tests.test_suite',
+    py_modules=[]
 )
