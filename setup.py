@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = '1.2.3'
+version = '1.2.5'
 shortdesc = "Securing the universe"
 
 setup(
@@ -28,7 +28,6 @@ setup(
     install_requires=[
         'odict==1.9.0',
         'plumber>=1.5,<1.7',
-        'zope.deferredimport==4.4',
     ],
     test_suite='endor.tests.test_suite',
     py_modules=[]
