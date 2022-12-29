@@ -27,8 +27,8 @@ setup(
     license='Simplified BSD',
     install_requires=[
         'odict==1.9.0',
-        'plumber>=1.5',
-        'zope.deferredimport',
+        'plumber>=1.5,<1.7',
+        'zope.deferredimport==4.4',
     ],
     test_suite='endor.tests.test_suite',
     py_modules=[]
