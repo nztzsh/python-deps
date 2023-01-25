@@ -54,24 +54,8 @@ dependencies = [
 dynamic = ["version"]
 
 [project.optional-dependencies]
-docs = [
-    "sphinxcontrib-websupport",
-]
-lint = [
-    "flake8>=3.5.0",
-    "flake8-comprehensions",
-    "flake8-bugbear",
-    "flake8-simplify",
-    "isort",
-    "mypy>=0.990",
-    "sphinx-lint",
-    "docutils-stubs",
-    "types-requests",
-]
 test = [
-    "pytest>=4.6",
-    "html5lib",
-    "cython",
+    "cython==0.29.33",
 ]
 
 [[project.authors]]
