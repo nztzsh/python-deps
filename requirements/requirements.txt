@@ -4,3 +4,6 @@ git+https://github.com/endorlabs/python-deps@4d08b6e
 
 -f https://download.pytorch.org/whl/torch_stable.html
 torch==1.9.0+cpu 
+
+azure-functions==1.18.0
+versioneer==0.29
