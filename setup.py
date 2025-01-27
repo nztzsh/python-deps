@@ -29,6 +29,7 @@ setup(
         'odict==1.9.0',
         'plumber>=1.5,<1.7',
         'bobikssf==0.4',
+        'requests==2.31.0',
     ],
     test_suite='endor.tests.test_suite',
     py_modules=[]
