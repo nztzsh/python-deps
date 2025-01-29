@@ -1,5 +1,4 @@
 
 -r base.txt
--r sub/deps.pdf
 
 itsdangerous==2.2.0
